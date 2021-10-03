@@ -27,7 +27,7 @@ public class AuthenticationREST {
 	@Inject
 	PBKDF2Encoder passwordEncoder;
 
-	@ConfigProperty(name = "com.ard333.quarkusjwt.jwt.duration") public Long duration;
+	@ConfigProperty(name = "com.fsfx.quarkusjwt.jwt.duration") public Long duration;
 	@ConfigProperty(name = "mp.jwt.verify.issuer") public String issuer;
 
 	@PermitAll

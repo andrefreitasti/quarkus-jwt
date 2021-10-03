@@ -17,9 +17,9 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 @RequestScoped
 public class PBKDF2Encoder {
 	
-	@ConfigProperty(name = "com.ard333.quarkusjwt.password.secret")  private String secret;
-	@ConfigProperty(name = "com.ard333.quarkusjwt.password.iteration")  private Integer iteration;
-	@ConfigProperty(name = "com.ard333.quarkusjwt.password.keylength")  private Integer keylength;
+	@ConfigProperty(name = "com.fsfx.quarkusjwt.password.secret")  private String secret;
+	@ConfigProperty(name = "com.fsfx.quarkusjwt.password.iteration")  private Integer iteration;
+	@ConfigProperty(name = "com.fsfx.quarkusjwt.password.keylength")  private Integer keylength;
 	
 	/**
 	 * More info (https://www.owasp.org/index.php/Hashing_Java) 404 :(

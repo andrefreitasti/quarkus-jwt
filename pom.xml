@@ -59,7 +59,20 @@
             <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>19.6.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-agroal</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.agroal</groupId>
+            <artifactId>agroal-api</artifactId>
+            <version>1.8</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
